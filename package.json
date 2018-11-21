@@ -1,0 +1,30 @@
+{
+  "name": "mean-ang2",
+  "version": "1.0.0",
+  "description": "mean stack application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohitwable/signin-signup-mean.git"
+  },
+  "keywords": [
+    "mea",
+    "stack",
+    "with",
+    "angular",
+    "2"
+  ],
+  "author": "rohit wabale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rohitwable/signin-signup-mean/issues"
+  },
+  "homepage": "https://github.com/Rohitwable/signin-signup-mean#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.13"
+  }
+}
