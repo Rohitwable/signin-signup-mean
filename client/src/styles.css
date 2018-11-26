@@ -1,4 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
-li{
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+body {
+    background: url(../src/assets/bg2.jpg);
+    opacity: 0.9;
+    padding: 40px;
+    font-family: "Open Sans Condensed", sans-serif;
+    z-index: -1; 
+  }
+
+  .help-block li {
     text-decoration: none;
+    list-style-type: none;
 }
+form {
+    position: relative;
+    width: 260px;
+    margin: 0 auto;
+    background:#e7e7e7;
+    padding: 20px 22px;
+    border: 1px solid;
+    border-top-color: rgba(255,255,255,.4);
+    border-left-color: rgba(255,255,255,.4);
+    border-bottom-color: rgba(60,60,60,.4);
+    border-right-color: rgba(60,60,60,.4);
+  }
+  form input, form button {
+    width: 212px;
+    border: 1px solid;
+    border-bottom-color: rgba(255,255,255,.5);
+    border-right-color: rgba(60,60,60,.35);
+    border-top-color: rgba(60,60,60,.35);
+    border-left-color: rgba(80,80,80,.45);
+    background-color: rgba(0,0,0,.2);
+    background-repeat: no-repeat;
+    padding: 8px 24px 8px 10px;
+    font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+    letter-spacing: .075em;
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    margin-bottom: 19px;
+  }
+  
+  form input:focus { background-color: rgba(0,0,0,.4); }
+  

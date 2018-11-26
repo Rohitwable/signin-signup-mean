@@ -4,6 +4,9 @@
   </div>
 </div>
 <form [formGroup]="form" (submit)="onRegisterSubmit()">
+  <div class="signup-heading">
+    <h3>Sign Up</h3>
+  </div>
     <div class="form-group">
         <label for="pwd">Email-address:</label>
         <div [ngClass]="{'has-error':(form.controls.email.errors && form.controls.email.dirty) || (!emailValid && form.controls.email.dirty), 'has-success':!form.controls.email.errors && emailValid}">

@@ -3,7 +3,11 @@
     {{ message }}
   </div>
 </div>
+
 <form [formGroup]="form" (submit)="onLoginSubmit()">
+  <div class="login-heading">
+    <h3>Login</h3>
+  </div>
   <div class="form-group">
     <label for="username">User name:</label>
     <div [ngClass]="{'has-error':form.controls.username.errors && form.controls.username.dirty , 'has-success':form.controls.username.valid && form.controls.username.dirty}">
@@ -23,8 +27,6 @@
     </ul>
     </div>
   </div>
-  <div class="checkbox">
-    <label><input type="checkbox"> Remember me</label>
-  </div>
+  
   <button [disabled]="!form.valid || processing" type="submit" class="btn btn-default">Login</button>
 </form>
